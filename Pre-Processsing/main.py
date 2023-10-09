@@ -8,7 +8,7 @@ import streamlit as st
 df = pd.read_csv("C:/Users/91785/Documents/GitHub/Sales_forcasstng/Pre-Processsing/sales_prediction.csv")
 
 # Title
-st.title("Sales Prediction App")
+st.title("Demand Forecasting App")
 
 # Sidebar with user inputs
 st.sidebar.header("User Inputs")
