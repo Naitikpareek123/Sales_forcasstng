@@ -46,11 +46,6 @@ X = df.drop(columns=['Item_Outlet_Sales'])
 y = df['Item_Outlet_Sales']
 X_train, X_test, Y_train, Y_test = train_test_split(X, y, test_size=test_size, random_state=random_state)
 
-# You can add model training and evaluation code here
-
-# Display model evaluation results
-
-# Show feature importances (if available)
 
 # Load the dataset
 try:
